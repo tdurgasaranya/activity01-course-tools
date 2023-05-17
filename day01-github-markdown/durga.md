@@ -7,3 +7,9 @@
 # Week 1 in a nutshell
 
 - Trying to understand and learn git was a challenging experience. I chose the above meme because the character represents me trying to learn everything at once.
+
+- With the learning experience from Git I would like to share the learning notes through markdown files and share the personal repo link to peers to read my content, with the process of learning git file_information experience I would get my hands on git now.
+
+- I personally liked Tanya Shapiro portfolio because of the way of her skills presentation and clearly expressing what her skillset is and what would clients require. It is a right amount of information sharing.
+(https://www.tanyashapiro.com/)
+
