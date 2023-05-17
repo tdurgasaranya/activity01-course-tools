@@ -3,19 +3,6 @@ Activity 01 - Course Tools
 
 This activity is intended to be completed in over three class sessions,
 including outside of class preparation work and three class meetings.
-**Do not proceed in this document until you have minimally**:
-
-1.  Completed this short (5-10 minutes) interactive [Markdown
-    tutorial](https://commonmark.org/help/tutorial/).
-2.  Created a free GitHub account if you do not already have one.
-3.  (For Day 2 and 3) Verified that you can login to GVSU’s [RStudio
-    Workbench](https://rstudio.gvsu.edu/). Or (more advanced and I note
-    that I may not be able to assist you with problem solving on your
-    machine), you have installed R, RStudio, and Git on your computer
-    and enabled RStudio and GitHub to communicate. If you choose have R,
-    RStudio, and GitHub setup on your personal computer, I recommend
-    following the directions from [Dr. Jenny Bryan *et
-    al*](https://happygitwithr.com/).
 
 In this repository/directory, you should see six items:
 
@@ -36,7 +23,15 @@ Before doing that, you will first make your own copy of this repository.
 Note that I will refer to “repositories” as “repos” (or a single
 “repository” as a “repo”) for the rest of the semester.
 
-## Task 1: Forking the Repository
+## Day 1
+
+**Do not proceed in this document until you have minimally**:
+
+1.  Completed this short (5-10 minutes) interactive [Markdown
+    tutorial](https://commonmark.org/help/tutorial/).
+2.  Created a free GitHub account if you do not already have one.
+
+### Task 1: Forking the Repository
 
 Read these directions first, then work through them. In this GitHub repo
 (i.e., my repo):
@@ -78,7 +73,7 @@ these with your group members.
 - What was easier about this GitHub method?
 - What was more difficult about this GitHub method?
 
-## Task 2: Exploring a GitHub Repository
+### Task 2: Exploring a GitHub Repository
 
 The last time that I taught STA 518 I had students complete this
 [Preparation](https://github.com/gvsu-sta518/preparation01) that
@@ -131,53 +126,185 @@ them.
 The rest of this `README` document <!--contains--> will contain
 tasks/directions for the next class meetings.
 
-<!-- 
+## Day 2
 
-## Task 3: Exploring RStudio
+**Do not proceed in this document until you have minimally**:
 
-Based on your course histories at GVSU and being enrolled in our Data Science & Analytics program, I am assuming that you have experience with R and RStudio.
-Therefore, I will not spend much time introducing basic R usage (i.e., base R or foundational `{tidyverse}` packages, like `{ggplot2}` or `{dplyr}`).
-I also assume that you have prior experience with the RStudio IDE.
-However, I will not assume that you have prior experience working between RStudio and GitHub and will provide you directions for my opinionated workflow (which has been adopted from many R/RStudio power users).
-If you feel rusty with R or RStudio, my go to resource would be Chapters 1-8 of [R for Data Science](https://r4ds.had.co.nz/index.html) by Wickham & Grolemund.
-While I am making assumptions about your experiences with using R/RStudio, please use our Microsoft Teams space to ask questions or seek help.
-I do not want you to struggle and I am happy to help or provide you with additional resources.
+1.  Verified that you can login to GVSU’s [RStudio
+    Workbench](https://rstudio.gvsu.edu/). Or (more advanced and I note
+    that I may not be able to assist you with problem solving on your
+    machine), you have installed R, RStudio, and Git on your computer
+    and enabled RStudio and GitHub to communicate. If you choose have R,
+    RStudio, and GitHub setup on your personal computer, I recommend
+    following the directions from [Dr. Jenny Bryan *et
+    al*](https://happygitwithr.com/).
+2.  Completed [this
+    preparation](https://github.com/gvsu-sta518/preparation02) to
+    connect your RStudio Workbench instance and GitHub so they
+    communicate with one another. Note that this is a preparation that I
+    created for STA 418/518 and am reusing here - the process is the
+    same so why create multiple copies of the same document.
 
-For these next tasks, you should minimally remember:
+### Task 1: Updating your forked GitHub repo
 
-- What the main uses for each region/pane in RStudio: <https://r4ds.had.co.nz/introduction.html#rstudio>.
-- What an R script is, how to run code in a script or Console, and how RStudio helps notify you of potential problems in your code: <https://r4ds.had.co.nz/workflow-scripts.html>.
-- What RStudio Projects are, determining where things "live" in RStudio, and the benefits of beginning each R session from a "vanilla" (sessions that do not retain information from previous sessions): <https://r4ds.had.co.nz/workflow-projects.html>.
+You will need to start reading these directions back at my
+`gvsu-sta631/activity01-course-tools` GitHub repo **and** have your
+forked `username/activity01-course-tools` GitHub repo handy. I recommend
+that you have my repo opened on one half of your screen and your repo
+opened on the other half. Read these directions first, then work through
+them.
 
-I think it is so **important** that you force RStudio to start from a clean session, that I kindly ask that you follow the recommendations in [Section 8.1](https://r4ds.had.co.nz/workflow-projects.html#what-is-real) of R for Data Science by updating your **Global Options**.
+1.  At the top of your `username/activity01-course-tools` repo (above
+    the repo contents section), verify that you see a message that looks
+    something like:
 
+> This branch is X commits behind gvsu-sta631:main.
+
+2.  Click on the hyperlinked “X commits behind” portion of that message
+    to be taken to a **Comparing changes** page.
+3.  Verify that your drop-down menu options specify:
+    - base repository: username/activity01-course-tools
+    - base: main
+    - head repository: gvsu-sta631/activity01-course-tools
+    - compare: main
+4.  Also verify that you have a message directly below this that says:
+
+> ✓ Able to merge. These branches can be automatically merged.
+
+Flag me if you see something different.
+
+5.  Click on the green **Create pull request** button under this
+    previous message. Note you can look at the changes that I made, if
+    you so desire, by scrolling down. However, this is not necessary.
+6.  On the next page, provide a short descriptive message in the “Title”
+    box (e.g., “Adding Day 2 materials”). You can also provide a more
+    detailed message in the “Leave a comment” box if you choose.
+7.  Click on the green **Create pull request** button.
+8.  On the next screen which is titled the same thing as what you
+    provided in the “Title” box on the previous screen, you will be
+    presented with a bunch of information. If you scroll down a little,
+    you should see a green check mark with a message that specifies:
+
+> This branch has no conflicts with the base branch
+
+And you can click on the green **Merge pull request**.
+
+9.  You will be provided with with an opportunity to provide another
+    meaningful message (or accept the default message). Finally, click
+    on the green **Confirm merge** button. You can now work directly
+    from your `username/activity01-course-tools` repo.
+
+In summary, what you just did is pulled my changes into your repository.
+Git and GitHub refer to this as a “pull request” because you are asking
+to pull items into your repo.
+
+### Task 2: Authoring in RStudio
+
+In your `username/activity01-course-tools` repo, go into the
+`day02-rstudio-rmarkdown` subfolder and follow the tasks listed in the
+`README`. You will follow these directions for today’s activity of
+building your own Distill website!
+
+## Day 3
+
+**Do not proceed in this document until you have affirmed these items**:
+
+- What the main uses for each region/pane in RStudio:
+  <https://r4ds.had.co.nz/introduction.html#rstudio>.
+- What an Rmarkdown file is, how to run code in an Rmarkdown file or
+  Console, and how RStudio helps notify you of potential problems in
+  your code: <https://r4ds.had.co.nz/workflow-scripts.html> and
+  <https://r4ds.had.co.nz/r-markdown.html>.
+- What RStudio Projects are, determining where things “live” in RStudio,
+  and the benefits of beginning each R session from a “vanilla”
+  (sessions that do not retain information from previous sessions):
+  <https://r4ds.had.co.nz/workflow-projects.html>.
+
+I think it incredibly **important** that you force RStudio to start from
+a clean session everytime that you start it up, that I kindly ask that
+you follow the recommendations in [Section
+8.1](https://r4ds.had.co.nz/workflow-projects.html#what-is-real) of R
+for Data Science by updating your **Global Options**.
 
 ![check-in](README-img/noun-magnifying-glass.png) **Check in**
 
-Verify that you can access GVSU's [RStudio Workbench](https://rstudio.gvsu.edu/).
-Then, see if you can affirm each of these questions:
+Verify that you can access GVSU’s [RStudio
+Workbench](https://rstudio.gvsu.edu/). Then, see if you can affirm each
+of these questions:
 
-- I can create an R script.
 - I can create an RMarkdown document.
-- I can run a simple calculation (e.g., `2 + 2`) in an R Script, an RMarkdown document, and the R Console.
-- I can load an R package in an R Script, an RMarkdown document, and the R Console (e.g., like `{ggplot2}`)
-- I can create a simple data visualization using `{ggplot2}` in an R Script, an RMarkdown document, and the R Console (e.g., like a scatterplot using the [`msleep`](https://ggplot2.tidyverse.org/reference/msleep.html) dataset).
+- I can run a simple calculation (e.g., `2 + 2`) in an R Script, an
+  RMarkdown document, and the R Console.
+- I can load an R package in an R Script, an RMarkdown document, and the
+  R Console (e.g., like `{ggplot2}`)
+- I can create a simple data visualization using `{ggplot2}` in an R
+  Script, an RMarkdown document, and the R Console (e.g., like a
+  scatterplot using the
+  [`msleep`](https://ggplot2.tidyverse.org/reference/msleep.html)
+  dataset).
 
-## Task 4: Connecting RStudio and GitHub
+### Updating your forked GitHub repo again
 
-We will use GitHub to save and share our work in RStudio this semester.
-In order to do this, we need to help them communicate with one another.
-Read these directions first, then work through them.
+These are the same directions that you used to update your forked GitHub
+for Day 2 - practice, practice, practice.
 
-1. In your `activity01-course-tools` repo folder/directory, locate and click into the `day02-rstudio-github` subfolder.
-2. In the `day02-rstudio-github` subfolder, you will be greeted by a new `README.md` file.
-  Do your best to complete the tasks/directions provide in this subfolder by **11:59 pm (EST) on Thu, Jan 19**.
-3. In our Teams workspace (linked on Blackboard), find the **General** channel and post what was muddiest from these tasks.
-  If someone else already posted what you though was muddy, add any clarification to their post and give them a "+ 1" 👍.
-  Remember that this space is for conversations as well as posting questions.
-  Read through your peers' muddy posts and do your best to provide help.
+You will need to start reading these directions back at my
+`gvsu-sta631/activity01-course-tools` GitHub repo **and** have your
+forked `username/activity01-course-tools` GitHub repo handy. I recommend
+that you have my repo opened on one half of your screen and your repo
+opened on the other half. Read these directions first, then work through
+them.
 
--->
+1.  At the top of your `username/activity01-course-tools` repo (above
+    the repo contents section), verify that you see a message that looks
+    something like:
+
+> This branch is X commits behind gvsu-sta631:main.
+
+2.  Click on the hyperlinked “X commits behind” portion of that message
+    to be taken to a **Comparing changes** page.
+3.  Verify that your drop-down menu options specify:
+    - base repository: username/activity01-course-tools
+    - base: main
+    - head repository: gvsu-sta631/activity01-course-tools
+    - compare: main
+4.  Also verify that you have a message directly below this that says:
+
+> ✓ Able to merge. These branches can be automatically merged.
+
+Flag me if you see something different.
+
+5.  Click on the green **Create pull request** button under this
+    previous message. Note you can look at the changes that I made, if
+    you so desire, by scrolling down. However, this is not necessary.
+6.  On the next page, provide a short descriptive message in the “Title”
+    box (e.g., “Adding Day 2 materials”). You can also provide a more
+    detailed message in the “Leave a comment” box if you choose.
+7.  Click on the green **Create pull request** button.
+8.  On the next screen which is titled the same thing as what you
+    provided in the “Title” box on the previous screen, you will be
+    presented with a bunch of information. If you scroll down a little,
+    you should see a green check mark with a message that specifies:
+
+> This branch has no conflicts with the base branch
+
+And you can click on the green **Merge pull request**.
+
+9.  You will be provided with with an opportunity to provide another
+    meaningful message (or accept the default message). Finally, click
+    on the green **Confirm merge** button. You can now work directly
+    from your `username/activity01-course-tools` repo.
+
+In summary, what you just did is pulled my changes into your repository.
+Git and GitHub refer to this as a “pull request” because you are asking
+to pull items into your repo.
+
+### Task 2: Authoring in RStudio
+
+In your `username/activity01-course-tools` repo, go into the
+`day03-rstudio-r` subfolder and follow the tasks listed in the `README`.
+You will follow these directions for today’s activity of working through
+a simple linear regression analysis.
 
 ## Attribution
 
