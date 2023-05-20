@@ -1,4 +1,5 @@
 ---
+Title: "Durga Saranya Day03"
 title: "Simple Linear Regression Analysis"
 output: github_document
 ---
@@ -20,16 +21,17 @@ This is a suggestion that I strongly recommend that you follow.
 We will see how naming code chunks makes our life easier later in this document so be sure to stick around.
 
 ```{r simple-calculations}
-
+# Adding the values
+result <- 2 + 5
+# integer vector with values 1 through 9
+int_vect <- 1:9
+# character vector with letters "A" through "Q"
+char_vect <- letters[1:17]
+# Counting the number of items in char_vector occurring after the letter "D"
+count <- sum(char_vect > "D")
 ```
 
-In the code chunk named "simple-calculations", add the R code that does the following:
-
-1. Adds the values 2 and 5.
-2. Creates an R object called `int_vect` that contains the values 1 through 9 - can you do this without typing each number?.
-3. Creates an R objected called `char_vect` that contains the letters "A" (the first letter of the alphabet) through "Q" (the 17th letter of the alphabet) - can you do this without typing each letter?
-4. Using code, determine how many of the items in `char_vect` occur after the letter "D"
-5. Provides a descriptive comment for each of the above tasks.
+ Provides a descriptive comment for each of the above tasks.
 6. Run each line to verify that you get the results you would expect, then click on the **knit** <img src="../README-img/knit-icon.png" alt="knit" width = "20"/> icon your Rmd document to verify that no errors occur.
   If you use [keyboard shortcuts](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE), like me, you can instead press Ctrl + Shift + K (for mac users: Cmd + Shift + K).
 7. Return to the **Day 3** `README` file to finish the process of committing and pushing to GitHub.
